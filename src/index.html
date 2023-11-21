@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Flexbox-Practice</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <div class="hi">
+        <div class="container">
+          <div class="hi__row">
+            <div class="hi__body">
+              <div class="hi__title">Практикуем Flexbox CSS</div>
+              <ul class="hi__list">
+                <li>Элемент списка 1</li>
+                <li>Элемент списка 2</li>
+                <li>Элемент списка 3</li>
+                <li>Элемент списка 4</li>
+              </ul>
+            </div>
+            <div class="hi__image">
+              <img src="./img/preview.png" alt="Превью" width="400px">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="what">
+        <div class="container">
+          <div class="what__row">
+            <div class="what__image">
+              <img src="img/flex-directions.png" width="430px" alt="флекс-направления">
+            </div>
+            <div class="what__body">
+              <div class="what__title title">Что такое Flexbox?</div>
+              <div class="what__text">
+                <p>Flexbox (или просто flex) — это способ позиционирования элементов в CSS.
+                С помощью этой функции можно быстро и легко описывать, как будет располагаться
+                тот или иной блок на веб-странице.</p>
+                <p>Элементы выстраиваются по заданной оси и
+                автоматически распределяются согласно настройкам.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="container">
+          <div class="columns__title title">Колонки с flex-контейнерами</div>
+          <div class="columns__row">
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img
+                       src="./img/mock-image.png"
+                       width="200px"
+                       alt="Мок изображение"
+                       >
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">The description for the image</div>
+                      <div class="item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Est eaque repellat, alias odit dicta, quis magnam asperiores debitis ut
+                        commodi quo animi voluptas, molestiae error eveniet illum possimus necessitatibus
+                        quisquam! Deserunt labore ipsam quasi, blanditiis ratione aliquid eveniet dolorem
+                        corrupti.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img
+                       src="./img/mock-image.png"
+                       width="200px"
+                       alt="Мок изображение"
+                       >
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">The description for the image</div>
+                      <div class="item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Est eaque repellat, alias odit dicta, quis magnam asperiores debitis ut
+                        commodi quo animi voluptas, molestiae error eveniet illum possimus necessitatibus
+                        quisquam! Deserunt labore ipsam quasi, blanditiis ratione aliquid eveniet dolorem
+                        corrupti.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img
+                       src="./img/mock-image.png"
+                       width="200px"
+                       alt="Мок изображение"
+                       >
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">The description for the image</div>
+                      <div class="item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Est eaque repellat, alias odit dicta, quis magnam asperiores debitis ut
+                        commodi quo animi voluptas, molestiae error eveniet illum possimus necessitatibus
+                        quisquam! Deserunt labore ipsam quasi, blanditiis ratione aliquid eveniet dolorem
+                        corrupti.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="columns__column">
+                <div class="columns__item item">
+                  <div class="item__row">
+                    <div class="item__image">
+                      <img
+                       src="./img/mock-image.png"
+                       width="200px"
+                       alt="Мок изображение"
+                       >
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">The description for the image</div>
+                      <div class="item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Est eaque repellat, alias odit dicta, quis magnam asperiores debitis ut
+                        commodi quo animi voluptas, molestiae error eveniet illum possimus necessitatibus
+                        quisquam! Deserunt labore ipsam quasi, blanditiis ratione aliquid eveniet dolorem
+                        corrupti.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="vertical">
+        <div class="container">
+          <div class="vertical__title title">Вертикальное выравнивание</div>
+          <div class="vertical__body">
+            <div class="vertical__row">
+              <div class="vertical__column">
+                <div class="vertical__item">
+                  <div class="vertical__subtitle">Lorem, ipsum.</div>
+                  <div class="vertical__label">lorem</div>
+                  <div class="vertical__text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Totam esse fugit excepturi dolorem molestiae modi!</p>
+                  </div>
+                  <a href="https://google.com" target="_blank" class="vertical__button">sit amet</a>
+                </div>
+              </div>
+              <div class="vertical__column">
+                <div class="vertical__item">
+                  <div class="vertical__subtitle">Lorem, ipsum.</div>
+                  <div class="vertical__label">lorem</div>
+                  <div class="vertical__text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Totam esse fugit excepturi dolorem molestiae modi!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Totam esse fugit excepturi dolorem molestiae modi!</p>
+                  </div>
+                  <a href="https://google.com" target="_blank" class="vertical__button">sit amet</a>
+                </div>
+              </div>
+              <div class="vertical__column">
+                <div class="vertical__item">
+                  <div class="vertical__subtitle">Lorem, ipsum.</div>
+                  <div class="vertical__label">lorem</div>
+                  <div class="vertical__text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Totam esse fugit excepturi dolorem molestiae modi!</p>
+                  </div>
+                  <a href="https://google.com" target="_blank" class="vertical__button">sit amet</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__text">
+            <a href="https://github.com/focuzzzed" target="_blank">github.com/focuzzzed</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
